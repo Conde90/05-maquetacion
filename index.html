@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Proyecto de maquetación web</title>
+</head>
+<body>
+    <div class="layout">
+        <!--Cabecera-->
+        <header class="header">
+            <div class="logo">
+                <div class="play"></div>
+            </div>
+            <h1>Mis películas</h1>
+        </header>
+        
+        <!--Barra de navegación-->
+        <nav class="nav">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Películas</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!--Contenido principal-->
+        <section class="contenido">
+            <!--Aquí van las películas-->
+            <article class="peli-item">
+                <h3 class="titulo">Desarrollo web</h3>
+                <p class="descripcion">blackcoder.mx</p>
+
+                <button class="editar">Editar</button>
+                <button class="borrar">borrar</button>
+
+            </article>
+
+            <article class="peli-item">
+                <h3 class="titulo">Desarrollo web</h3>
+                <p class="descripcion">blackcoder.mx</p>
+
+                <button class="editar">Editar</button>
+                <button class="borrar">borrar</button>
+
+            </article>
+
+            <article class="peli-item">
+                <h3 class="titulo">Desarrollo web</h3>
+                <p class="descripcion">blackcoder.mx</p>
+
+                <button class="editar">Editar</button>
+                <button class="borrar">borrar</button>
+
+            </article>
+
+            <article class="peli-item">
+                <h3 class="titulo">Desarrollo web</h3>
+                <p class="descripcion">blackcoder.mx</p>
+
+                <button class="editar">Editar</button>
+                <button class="borrar">borrar</button>
+
+            </article>
+        </section>
+
+        <!--Barra lateral-->
+        <aside class="lateral">
+            <div class="buscar">
+                <h3 class="titulo">Buscador</h3>
+                <form>
+                    <input type="text" />
+                    <button class="boton-buscar">Buscar</button>
+                </form>
+            </div>
+
+            <div class="agregar">
+                <h3 class="titulo">Añadir película</h3>
+                <form>
+                    <input type="text" placeholder="Título" />
+                    <textarea placeholder="Descripción"></textarea>
+                    <input class="boton-guardar" type="submit" value="Guardar">
+                </form>
+            </div>              
+        </aside>
+
+        <!--Pie de página-->
+        <footer class="footer">
+            &copy; BlackCoder - <a href="">blackcoder.mx</a>
+        </footer>
+    </div>
+</body>
+</html>
